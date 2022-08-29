@@ -39,6 +39,15 @@ simple_list_with_values.extend("123")
 # clear() method will remove all elements from list
 simple_list_with_values.clear()
 
+# find length of list, we have two ways
+len(simple_list_with_values)
+simple_list_with_values.__len__()
+
+# multiple list, it multiple itself with count we gave
+# [1, 3] * 2 -> [1,3,1,3]
+simple_list_with_values.__mul__(2)
+simple_list_with_values * 2
+
 ## list with different data type
 list_with_multiple_data_type = [1, "Hey", 30.10, -1, "there!"]
 # note: .sort() will not work with multiple data type
