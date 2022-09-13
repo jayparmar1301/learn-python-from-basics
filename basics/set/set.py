@@ -55,13 +55,13 @@ simple_set1.issubset(simple_set2)
 # set A is called the superset of another set B if all elements of set B are elements of set A
 simple_set1 = {1,3,4,5}
 simple_set2 = {4,5}
-simple_set1.issubset(simple_set1)
+simple_set1.issubset(simple_set2)
 # output True
 
 # The symmetric difference of two sets set1 and set2 is the set of elements which are in either of the sets set1 or set2 but not in both.
 simple_set1 = {1,3,4,5}
 simple_set2 = {4,5}
-simple_set1.symmetric_difference(simple_set1)
+simple_set1.symmetric_difference(simple_set2)
 # output {1, 3}
 
 # pop() method is used to remove last element from set
